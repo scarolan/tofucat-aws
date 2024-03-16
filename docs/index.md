@@ -440,7 +440,7 @@ class: title
 name: what-is-opentofu
 class: img-left
 # What is OpenTofu?
-![OpenTofu](images\OpenTofu_VerticalLogo_FullColor.png)
+![OpenTofu](images\opentofu-logo.png)
 
 OpenTofu is an open source provisioning tool. It is drop-in compatible with existing Terraform code.
 
