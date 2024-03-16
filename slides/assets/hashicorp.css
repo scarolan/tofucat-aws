@@ -1,0 +1,45 @@
+@page {
+  size:  1216px 684px;
+  margin: 0;
+}
+
+@font-face {
+  font-family: "Gilmer";
+  src: url(https://scarolan.github.io/tofucat-aws/assets/fonts/Gilmer-Regular.otf) format("opentype");
+}
+
+@font-face {
+  font-family: "Metro";
+  src: url(https://scarolan.github.io/tofucat-aws/assets/fonts/Metro-Sans-Regular.otf) format("opentype");
+}
+
+.white {
+  color: white !important;
+}
+
+.small {
+  font-size: 50%;
+}
+
+.medium {
+  font-size: 85%;
+}
+
+.hashilogo {
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+}
+
+#legend {
+  border: 0px none;
+  height: 450px;
+  position: absolute;
+  width: 600px;
+  overflow: hidden;
+  z-index: 100;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}

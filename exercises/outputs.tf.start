@@ -1,0 +1,4 @@
+# Outputs file
+#output "catapp_url" {
+#  value = "http://${aws_instance.tofucat.public_dns}"
+#}
