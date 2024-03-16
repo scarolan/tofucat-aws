@@ -499,8 +499,6 @@ resource aws_vpc "main" {
 }
 ```
 
-OpenTofu code is based on the [HCL2 toolkit](https://github.com/hashicorp/hcl). 
-
 OpenTofu is a declarative language that is specifically designed for provisioning infrastructure on any cloud or platform.
 
 ---
@@ -543,7 +541,7 @@ name: tofu-init
 
 Initializing provider plugins...
 - Checking for available provider plugins...
-- Downloading plugin for provider "aws" (hashicorp/aws) 2.35.0...
+- Downloading plugin for provider "aws" (megacorp/aws) 2.35.0...
 ...
  provider.aws: version = "~> 2.35"
 
@@ -1037,7 +1035,7 @@ OpenTofu is a _stateful_ application. This means that it keeps track of everythi
   "lineage": "452b4191-89f6-db17-a3b1-4470dcb00607",
   "outputs": {
     "catapp_url": {
-      "value": "http://go-tofucat-5c0265179ccda553.workshop.aws.hashidemos.io",
+      "value": "http://go-tofucat-5c0265179ccda553.workshop.aws.opentofu.io",
       "type": "string"
     },
   }
